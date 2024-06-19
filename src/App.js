@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { Pradeep } from './Pradeep';
+import State from './State';
+import Ws from './Ws';
+
+
 
 function App() {
+
+  let a="pradeep"
+  let b=9876543210
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <>
+      {/* <Pradeep/> */}
+      <Ws name={a} mobile={b} location="jodhpur" />
+      {/* <State/> */}
+  </>
   );
 }
 
