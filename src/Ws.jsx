@@ -9,7 +9,7 @@ export default function Ws(myData) {
    let obj={ 
       a:10,
       b:20,
-      c:66
+      c:20
     }
     // console.log(obj.b)
    
