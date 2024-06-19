@@ -12,7 +12,6 @@ export default function Ws(myData) {
       c:30
     }
     // console.log(obj.b)
-    let {a,b,c}=obj
    
     // called object Destructuring 
     
